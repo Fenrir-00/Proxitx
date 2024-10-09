@@ -108,5 +108,6 @@ if proxies_list:  # Solo ejecutar si hay proxies cargados
     banner()
     version()
     change_ip_with_proxy(proxies_list)
+    print(f"{color.amarillo}Fin de lista.... reinicia el script{color.fin}")
 else:
     print("No se encontraron proxies para usar.")
